@@ -1,0 +1,231 @@
+@font-face {
+  font-family: "Myriad Pro Light";
+  src: url("MyriadPro-Light.eot");
+  src: url("MyriadPro-Light.eot?#iefix") format("embedded-opentype"),
+    url("MyriadPro-Light.woff") format("woff"),
+    url("MyriadPro-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Myriad Pro Bold";
+  src: url("MyriadPro-Bold.eot");
+  src: url("MyriadPro-Bold.eot?#iefix") format("embedded-opentype"),
+    url("MyriadPro-Bold.woff") format("woff"),
+    url("MyriadPro-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+  font-family: "Myriad Pro Light", sans-serif;
+  font-family: "Myriad Pro Bold", sans-serif;
+}
+
+ul,
+li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+div,
+p h1,
+h2,
+span {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background: #f8f8f8 url("./img/Slider.jpg") no-repeat center top / cover;
+  height: 750px;
+}
+
+.wrap {
+  max-width: 1192px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.header_top_nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  align-items: baseline;
+}
+
+.links li {
+  margin-left: 45px;
+}
+
+.links li a {
+  font-size: 16px;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 35px;
+}
+
+.menu li {
+  margin-left: 35px;
+}
+
+.menu li a {
+  text-transform: uppercase;
+}
+
+.btn {
+  width: 55px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5d6266;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #1a90a2;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 65px;
+  margin: 90px 0 90px 0;
+}
+
+.title span {
+  font-size: 85px;
+}
+
+.btn__sell-top {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn__sell,
+.btn__top {
+  width: 210px;
+  height: 40px;
+  border: 2px solid #1a90a2;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn__top {
+  margin-right: 30px;
+}
+
+.btn__sell:hover,
+.btn__top:hover {
+  background-color: #1a90a2;
+}
+
+.hanger {
+  margin-right: 10px;
+}
+
+.arrivels__titles {
+  margin-top: 30px;
+  font-size: 36px;
+  color: #000;
+  text-transform: uppercase;
+  display: flex;
+}
+
+.arrivels__titles p {
+  margin-left: 20px;
+}
+
+.arrivels__block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 45px;
+}
+
+.arrivels__block_photo {
+  position: relative;
+  width: 23%;
+  margin-bottom: 60px;
+}
+
+.arrivels__block_photo:hover {
+  border: 3px solid #1a90a2;
+  cursor: pointer;
+}
+
+.arrivels__block_photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.arrivels__block_text {
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: -10px;
+  left: 32%;
+  font-size: 16px;
+  text-align: center;
+}
+
+.price {
+  font-weight: bold;
+  margin: 14px 0;
+}
+
+.btn__photo {
+  width: 120px;
+  height: 40px;
+  background-color: #1a90a2;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.arrivels__block_photo_man-coat {
+  width: 49%;
+}
+
+.arrivels__block_text_man-coat {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.arrivels__block_text_man-coat {
+  left: 30%;
+}
